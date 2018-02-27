@@ -6,8 +6,7 @@ A simple example code in python:
     model_path = 'model.bin'    #directory of the model
     model = gensim.models.Doc2Vec.load(model_path)    #load the model
     
-    #text that you want to convert to vector, each element is one sentence, not case-sensitive
-    text = 'please write down your name'
+    text = 'please write down your name'    #text that you want to convert to vector, each element is one sentence, not case-sensitive
     vector = model.infer_vector(gensim.utils.simple_preprocess(text))    #convert
     
     print(vector)
