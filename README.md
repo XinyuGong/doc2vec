@@ -12,6 +12,6 @@ A simple example code in python:
     
     print(vector)
 
-Since [GitHub accept files less than 100 MB to get pushed](https://help.github.com/articles/working-with-large-files/), I uploaded the model to [Mega]()
+Since [GitHub only accept files less than 100 MB to get pushed](https://help.github.com/articles/working-with-large-files/), I uploaded the model to [Mega]()
 
 To use this, download the model from Mega and decompress it. There are several files and they are all necessary. But you only need to cover the directory of `model.bin` in your program, the model can find other files in the same folder.
